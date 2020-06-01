@@ -1,0 +1,26 @@
+{
+  "name": "group-video-final",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "scripts": {
+    "start": "PROD=true node server.js",
+    "postinstall": "cd ./client && yarn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarshaReddyVardhan/group-video-final.git"
+  },
+
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarshaReddyVardhan/group-video-final/issues"
+  },
+  "homepage": "https://github.com/HarshaReddyVardhan/group-video-final#readme"
+}
